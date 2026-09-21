@@ -61,7 +61,7 @@ def _generate_weather(city: str) -> WeatherResponse:
 def read_root() -> dict[str, object]:
     """Service information and the list of supported cities."""
     return {
-        "service": "Weather API",
+        "service": "Example Weather API",
         "supported_cities": sorted(SUPPORTED_CITIES),
     }
 
